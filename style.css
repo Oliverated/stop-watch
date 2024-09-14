@@ -1,0 +1,70 @@
+body {
+    background-color: #002d0911;
+  }
+  .watch-block {
+    text-align: center;
+    align-content: center;
+    background-color: #224500;
+    color: #9cfb9c;
+    width: 30%;
+    height: 60vh;
+    border-radius: 50%;
+    border: 10px double #9cfb9c;
+    margin: auto;
+    margin-top: 5dvw;
+    padding: 5%;
+  }
+
+  .watch-block header{
+    font-size: 30px;
+  }
+
+  .watch-block.blink {
+    border: 10px double #9cfb9c;
+    animation: bor 1000ms ease infinite;
+  }
+
+  @keyframes bor {
+    to {
+      border: 10px double #224500;
+    }
+  }
+
+  .watch-block span {
+    font-size: 4vw;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .mili-secs{
+    font-size: 30px;
+    color: #befbbe;
+  }
+
+  .controls button {
+    color: #224500;
+    width: 5vw;
+    background-color: #9cfb9c;
+    border-radius: 9px;
+    border: none;
+    margin: 1%;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .controls button:hover {
+    background-color: transparent;
+    border: 2px solid #9cfb9c;
+    color: #9cfb9c;
+    scale: 1.1;
+  }
+
+  .dots.blink {
+    opacity: 0;
+    animation: dot 1000ms ease infinite;
+  }
+
+  @keyframes dot {
+    to {
+      opacity: 1;
+    }
+  }
