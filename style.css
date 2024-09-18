@@ -1,17 +1,19 @@
 body {
-    background-color: #002d0911;
+    background-color: #051c0a;
+    text-align: center;
+    align-content: center;
+    height: 95vh;
   }
   .watch-block {
     text-align: center;
     align-content: center;
-    background-color: #224500;
-    color: #9cfb9c;
+    background-image:linear-gradient(200deg, #072500, #08a200) ;
+    color: #90fe90;
     width: 30%;
     height: 60vh;
     border-radius: 50%;
     border: 10px double #9cfb9c;
     margin: auto;
-    margin-top: 5dvw;
     padding: 5%;
   }
 
@@ -37,7 +39,7 @@ body {
 
   .mili-secs{
     font-size: 30px;
-    color: #befbbe;
+    color: #b7e7b7;
   }
 
   .controls button {
